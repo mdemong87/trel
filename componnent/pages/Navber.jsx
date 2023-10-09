@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { HiChevronDown } from "react-icons/hi";
 import styles from "../../styles/pages/Navbar.module.css";
-import Feature from "./showNvaber/feature";
+import Feature from "./showNvaber/Feature";
 
 
 
