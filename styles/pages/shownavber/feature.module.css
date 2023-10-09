@@ -1,0 +1,72 @@
+.featureShownavber {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 350px;
+    gap: 20px;
+}
+
+.navitemWrper {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.navitemWrper>div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.singleItemWrp {
+    background: #812f37;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.singleItemWrp:hover {
+    border: 1px solid #b8797f;
+}
+
+.iconsAndTitle {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.iconsAndTitle>h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.singleItemWrp>div>p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #bebebe;
+    padding-top: 5px;
+}
+
+.icons {
+    font-size: 45px;
+    color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shownabsideWrp {
+    background: #812f37;
+    border-radius: 10px;
+}

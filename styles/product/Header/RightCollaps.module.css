@@ -1,0 +1,86 @@
+.rightCollaspeWrp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.323);
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    align-items: center;
+}
+
+.rightModel {
+    background: #fff;
+    height: 100%;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.topUserWrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+
+.headerUserIcons {
+    width: 50px;
+    height: 50Px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.userIcons {
+    font-size: 28px;
+}
+
+.photoAndname {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.photoAndname>div>h2 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.photoAndname>div>p {
+    color: #7c7c7c !important;
+}
+
+
+
+@media (max-width:600px) {
+    .rightCollaspeWrp {
+        grid-template-columns: 1fr 300px;
+    }
+
+    .headerUserIcons {
+        width: 40px;
+        height: 40Px;
+    }
+
+    .userIcons {
+        font-size: 24px;
+    }
+
+    .photoAndname>div>h2 {
+        font-size: 15px !important;
+        font-weight: 600 !important;
+    }
+
+    .photoAndname>div>p {
+        color: #7c7c7c !important;
+        font-size: 14px;
+    }
+
+}

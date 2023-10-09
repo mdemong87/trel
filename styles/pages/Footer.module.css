@@ -1,0 +1,5 @@
+.footerWrp {
+    height: 500px;
+    background: var(--primaryColor);
+    color: #fff;
+}

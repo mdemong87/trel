@@ -1,0 +1,71 @@
+.aside {
+    background: #fff;
+    height: 91vh;
+    width: 100%;
+    position: sticky !important;
+    top: 70px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.ulWrp {
+    overflow-y: scroll !important;
+}
+
+.ulWrp::-webkit-scrollbar {
+    display: none;
+}
+
+.asideList {
+    margin-top: 10px;
+}
+
+.LinkItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 8px 0;
+    font-weight: 600;
+    cursor: pointer !important;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: var(--primaryColor);
+}
+
+.LinkItem:hover {
+    background-color: #ddd;
+    color: var(--primaryColor);
+}
+
+.activeLink {
+    background-color: #ddd;
+    color: var(--primaryColor);
+}
+
+
+
+
+.icons {
+    font-size: 25px;
+}
+
+
+@media (max-width:900px) {
+    .LinkItem {
+        padding-left: 7.5px;
+    }
+
+    .span {
+        display: none;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+}

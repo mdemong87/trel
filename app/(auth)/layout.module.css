@@ -1,0 +1,47 @@
+.authWrp {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    background: var(--primaryColor);
+    height: 100vh;
+}
+
+.layoutTextWrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layoutTextWrp>div>h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.layoutTextWrp>div>ul {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.layoutTextWrp>div>ul>li {
+    padding: 5px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tickIcons {
+    background: green;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.suthSinglePage {
+    margin: 30px;
+    background: #fff;
+    border-radius: 15px;
+}

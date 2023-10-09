@@ -1,0 +1,21 @@
+.corssBtn {
+    padding: 10px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corssBtn:hover {
+    transform: rotate(90deg);
+}
+
+.icons {
+    font-size: 20px;
+    font-weight: 800;
+}

@@ -1,0 +1,46 @@
+.asideAndContentWrp {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.pageContantWrp {
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.showasideContainerWrp {
+    display: grid;
+    grid-template-columns: 300px 1fr !important;
+}
+
+
+@media (max-width:900px) {
+    .asideAndContentWrp {
+        grid-template-columns: 75px 1fr;
+    }
+
+    .showasideContainerWrp {
+        grid-template-columns: 300px 1fr !important;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .asideAndContentWrp {
+        grid-template-columns: 300px 1fr !important;
+        grid-template-rows: 1fr;
+    }
+
+    .asdieWrp {
+        display: none;
+    }
+
+    .showAsideWrp {
+        display: block;
+    }
+
+    .asideAndContentWrp {
+        grid-template-columns: 1fr;
+    }
+}

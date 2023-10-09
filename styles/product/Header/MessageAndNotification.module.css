@@ -1,0 +1,11 @@
+.messageAndNotificationWrp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons {
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--primaryColor);
+}

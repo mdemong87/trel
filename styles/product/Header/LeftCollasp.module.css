@@ -1,0 +1,31 @@
+.leftCollaspeWrp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.323);
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+}
+
+.leftModel {
+    background: #fff;
+    height: 100%;
+    border-right: 2px solid #d4d4d4;
+}
+
+.crorssWrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+@media (max-width:600px) {
+    .leftCollaspeWrp {
+        grid-template-columns: 300px 1fr;
+    }
+}
