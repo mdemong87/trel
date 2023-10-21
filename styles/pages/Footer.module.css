@@ -1,5 +1,21 @@
 .footerWrp {
-    height: 500px;
+    height: fit-content;
     background: var(--primaryColor);
     color: #fff;
+}
+
+.footerWrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.copyRightWrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
